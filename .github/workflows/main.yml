@@ -53,7 +53,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /root/realworld
+          cd /root
           wget https://github.com/wuhui0/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
