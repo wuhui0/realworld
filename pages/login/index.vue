@@ -43,7 +43,7 @@
   </div>
 </template>
 
-
+<script>
 import { login, register } from '@/api/user'
 
 // 仅在客户端加载 js-cookie 包
